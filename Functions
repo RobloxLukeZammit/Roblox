@@ -1,0 +1,18 @@
+--How make functions--
+--Firstly we are going to create a basic function on a part--
+local part = Instance.new("Part")
+part.Parent = game:GetService("Workspace")
+--Now we are going to make a function which if a player touches the part he will die--
+function Kill(Part)
+
+end
+part.Touched:connect(Part)
+--Here we have to add the code inside the function--
+function Kill(Part)
+if part.Parent:FindFirstChild("Humanoid") ~= nil then-- we made an if statement to check if he has a Humanoid
+part.Parent.Torso:BreakJoints()--Joints are Instances which keep the player attached to the torso--
+end
+end
+part.Touched:connect(Part)
+--And that should do--
+--Luk3Zammit
