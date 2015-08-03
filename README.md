@@ -1,3 +1,2 @@
-Hi and welcome to my gitHub account
-Hopefully I helped you in the following tutorials ;)
---Luk3Zammit
+Welcome to my GitHub
+I'm here to help those which are just starting Lua
