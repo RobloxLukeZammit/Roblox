@@ -1,0 +1,11 @@
+--Welds are used to grab two object and weld them so they wount break --
+--Start off
+local Part = Instance.new("Part", Workspace)-- if you use , Workspace it will lower the amount of lines in a script / more efficent
+local Part2 = Instance.new("Part, Workspace)
+local Weld = Instance.new("Weld", Part)
+Weld.Part0=Part--Define the parts you want to weld
+Weld.Part1=Part2
+--Now they are welded next we can do CFrame to position the parts
+Weld.C0=CFrame.new(0,0,0)--Remeber when you use CFrame in welds the 0,0,0 is the center of the weld
+Weld.C1=CFrame.new(0,1,0)--also for rotating * CFrame.fromEulerAnglesXYZ(math.rad(0),math.rad(0),math.rad(0))
+--and done 
