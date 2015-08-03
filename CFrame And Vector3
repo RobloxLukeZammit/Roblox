@@ -1,4 +1,4 @@
---How to use Vector3 and CFrame are used--
+--How to use Vector3 and CFrame--
 --Starting off with a part--
 local part = Instance.new("Part")
 --Then we change the Parent of the part--
