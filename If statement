@@ -1,0 +1,10 @@
+--if statements are used to check for Instances--
+--For example--
+local part = Instance.new("Part")
+part.Parent = game:GetService("Workspace")
+if part.Parent==nil then
+print'OH NO WE CANT FIND PART!!'
+elseif part.Parent==game.Workspace then 
+print'We found part it's found in Workspace :D'
+end
+--Luk3Zammit
