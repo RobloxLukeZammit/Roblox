@@ -1,0 +1,17 @@
+--How Vector3 and CFrame are used--
+--Starting off with a part--
+local part = Instance.new("Part")
+--Then we change the Parent of the part--
+part.Parent = game:GetService("Workspace")
+--Now resizing the part to our desired size--
+part.Size = Vector3.new(5,5,5)--Add your size remeber X-axis, Y-axis and Z-axis
+--So for positioning you can use both Vector3 and CFrame, but I suggest using CFrame for presice position--
+part.CFrame = CFrame.new(0,10,0) -- if you want to rotate the part, do * CFrame.fromEulerAnglesXYZ(math.rad(0),math.rad(0),math.rad(0)) --
+--or
+part.Position = Vector3.new(0,10,0) 
+--You can aslo for example:
+local newPart = Instance.new("Part")
+newPart.Parent = game:GetService("Workspace")
+part.CFrame = newPart.CFrame
+--This basically get's part's CFrame and moves it to newPart's CFrame--
+--Luk3Zammit
