@@ -9,3 +9,4 @@ Weld.Part1=Part2
 Weld.C0=CFrame.new(0,0,0)--Remeber when you use CFrame in welds the 0,0,0 is the center of the weld
 Weld.C1=CFrame.new(0,1,0)--also for rotating * CFrame.fromEulerAnglesXYZ(math.rad(0),math.rad(0),math.rad(0))
 --and done 
+--Luk3Zammit
