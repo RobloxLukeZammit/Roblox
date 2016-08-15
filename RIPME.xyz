@@ -1,7 +1,7 @@
 local mesh_id=1064328
 local texture_id=168119260
 local origin={0,10,0}
-local scale={1.25, 1.25, 1.25}
+local scale={0.2,0.2,0.2}
 local angle={0,45,0} -- The rotation in degrees of the mesh (you can fill in the rotation of a brick too)
 local diameter=1.5 -- The diameter of the bricks that will act as a collision response. Tiny bricks may act for precise walking but might be missed easier when falling at high speeds on them
 local bricks_per_row=7 -- The bricks per row/column to act as a collision response. For example, if you set it to 6, there will be 6^3 = 6*6*6 = 216 bricks created that suround your character and they will be parented in a model in the workspace accordingly (so if you're standing close to or on your mesh) to act as a collision response. Set this value higher if your character is having difficulty with jumping.
