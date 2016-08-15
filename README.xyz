@@ -1,4 +1,4 @@
-local mesh_id=168119231
+local mesh_id=1064328
 local texture_id=168119260
 local origin={0,10,0}
 local scale={1.25, 1.25, 1.25}
