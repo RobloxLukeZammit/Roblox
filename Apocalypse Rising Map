@@ -15,12 +15,14 @@ local SizeXYZ = 1
 local number = 0
 
 for h = 1, Height do
-	y = y + 1
+	y = y - 1
 	for w = 1, Width do
 		wait()
 		local p = Instance.new("Part", workspace.Terrain)
+		p.Anchored = true
+		p.CanCollide = true
 		p.Size = V( SizeXYZ ,SizeXYZ ,SizeXYZ)
-		p.CFrame = C( x, y, 1)
+		p.CFrame = C( x, y+10, 1)
 		p.BrickColor.Color = Picture[number]
 		number = number + 1
 		x = x + 1
