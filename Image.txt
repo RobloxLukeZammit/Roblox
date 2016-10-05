@@ -12,15 +12,18 @@ local CF = CFrame.new
 
 local SizeXYZ = 1
 
-local number = 0
+local number = 1
 
 local new = Instance.new("Script", workspace)
 new.Name = "a"
+
+print(Picture[1])
 
 for h = 1, Height do
 	y = y - 1
 	for w = 1, Width do
 		wait()
+		print(Picture[number])
 		local p = Instance.new("Part", new)
 		p.Anchored = true
 		p.CanCollide = true
